@@ -6,7 +6,7 @@ import Weather from './Weather.js';
 
 function App()
 {
-  const [weather, setWeather] = useStatb([]);
+  const [weather, setWeather] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
   async function fetchWeatherHandler()
