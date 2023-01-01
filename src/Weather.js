@@ -10,7 +10,6 @@ const Weather = (props) => {
             <h2>Wind speed: {props.weather.wind_speed}</h2>
         </li>
     )
-
 }
 
 export default Weather;
